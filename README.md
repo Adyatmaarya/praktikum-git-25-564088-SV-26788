@@ -25,6 +25,3 @@ Proyek ini adalah pengembangan website profil sederhana untuk mempraktikkan alur
 | `git rebase -i` | Merapikan riwayat commit dengan teknik squash. |
 | `git add` | Menambahkan perubahan file ke staging area. |
 | `git commit` | Menyimpan perubahan secara permanen ke dalam database Git. |
-
-## Tampilan Website
-![Screenshot Website](path/ke/gambar/web.png)
