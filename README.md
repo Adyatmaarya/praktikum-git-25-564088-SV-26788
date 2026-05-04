@@ -1,1 +1,1 @@
-# praktikum-git-25-564088-SV-26788
+![Screenshot Git Log] (git-log.png)
