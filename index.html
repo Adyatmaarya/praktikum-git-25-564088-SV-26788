@@ -1,19 +1,72 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selamat datang di web saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            /* Menghilangkan margin bawaan browser agar navbar full-width */
+            padding: 0;
+        }
+        /* --- Gaya untuk Navbar --- */
+        
+        nav {
+            background-color: #333;
+            /* Warna latar belakang navbar */
+        }
+        
+        nav ul {
+            list-style-type: none;
+            /* Menghilangkan tanda titik pada list */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            /* Membuat menu berjejer ke samping */
+        }
+        
+        nav li a {
+            display: block;
+            color: white;
+            /* Warna teks menu */
+            text-align: center;
+            padding: 14px 20px;
+            /* Jarak ruang di dalam tombol menu */
+            text-decoration: none;
+            /* Menghilangkan garis bawah pada link */
+        }
+        
+        nav li a:hover {
+            background-color: #555;
+            /* Warna latar berubah saat di-hover */
+        }
+        /* --- Gaya untuk Konten Utama --- */
+        
+        .container {
+            padding: 20px;
+        }
+    </style>
 </head>
-<style>
-    body {
-        font-family: Arial;
-    }
-</style>
 
 <body>
-    <h1>Ini dalah website saya</h1>
-    <p>Deksripsi website</p>
+    <!-- Bagian Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#services">Layanan</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Bagian Konten Utama -->
+    <div class="container">
+        <h1>Ini adalah website saya</h1>
+        <p>Deskripsi website</p>
+    </div>
 </body>
 
 </html>
