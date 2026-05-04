@@ -1,1 +1,1 @@
-![Screenshot Git Log](git-log.png)
+![Screenshot Git Log](gitlog.png)
